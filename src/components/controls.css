@@ -1,0 +1,61 @@
+.controls{
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+}
+h1{
+  font-size: 20px;
+}
+
+.controls input[type="range"] {
+  width: 140px;
+}
+.sliders{
+  align-items: center;
+}
+.slider:hover {
+  cursor: pointer;
+}
+
+
+@media (max-width: 850px){
+  .controls{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .matrix{
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+.matrix{
+  width: 200px;
+  border-left: solid 3px black;
+  border-right: solid 3px black;
+  text-align: center;
+}
+span{
+  font-size: 20px;
+}
+
+@media (max-width: 400px){
+  .matrices{
+    gap: 7px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+  .matrix{
+    width: 50px;
+  }
+  .matrix span{
+    font-size: 5px;
+
+  }
+  h1{
+    font-size: 18px;
+  }
+}

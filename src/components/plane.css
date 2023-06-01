@@ -1,0 +1,12 @@
+.plane-container {
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+
+@media (max-width: 400px){
+  .plane-container{
+    margin: 0 auto;
+    width: 90%;
+    height: calc(100vh - 100px);
+  }
+}
