@@ -6,8 +6,8 @@ import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader.js';
 import './plane.css'; // Importa el archivo plane.css
 
 function Plane({ rotation }) {
-  const objPath = '/Three/piper_pa18.obj'; // Ruta al archivo .obj
-    const mtlPath = '/Three/piper_pa18.mtl'; // Ruta al archivo .mtl
+  const objPath = '/ThreeJS/piper_pa18.obj'; // Ruta al archivo .obj
+    const mtlPath = '/ThreeJS/piper_pa18.mtl'; // Ruta al archivo .mtl
   const groupRef = useRef();
 
   useEffect(() => {
