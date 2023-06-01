@@ -11,6 +11,6 @@ git add -A
 git commit -m 'deploy'
 
 
-git push -f git@github.com:Brunodv/ThreeJS.git main:gh-pages
+git push -f git@github.com:Brunodv/Three.js.git main:gh-pages
 
 cd .    

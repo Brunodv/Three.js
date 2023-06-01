@@ -2,14 +2,9 @@
 # Material Count: 10
 
 newmtl base
-Ns 96.078431
-Ka 0.300000 0.300000 0.300000
+
 Kd 1 1 1 
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 5
+
 map_Kd textures\piper_diffuse.jpg
 map_Bump textures\piper_bump.jpg
 
